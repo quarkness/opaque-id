@@ -6,7 +6,7 @@ setup(
     description='Obfuscation scheme for integer IDs',
     author='Marek Z.',
     url='http://github.com/marekweb/opaque-id',
-    packages=find_packages(),
+    py_modules=['opaque'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
